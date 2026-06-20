@@ -1,0 +1,28 @@
+sae:
+  architecture: "batch_topk"
+  d_in: 4096
+  d_sae: 32768
+  k: 48
+
+training:
+  lr: 5e-5
+  lr_scheduler: "cosine"
+  lr_warmup_steps: 1000
+  lr_decay_start: 0.8
+  batch_size: 4096
+  total_training_tokens: 200000000
+  normalize_activations: "expected_average_only_in"
+  checkpoint_interval: 10000
+  eval_interval: 5000
+  max_grad_norm: 1.0
+  num_workers: 4
+  seed: 42
+
+  wandb_project: "safesae-vla"
+  wandb_entity: null
+  log_to_wandb: true
+
+evaluation:
+  target_l0: [32, 64]
+  max_dead_features_pct: 5.0
+  target_fvu: 0.05

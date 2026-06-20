@@ -1,0 +1,9 @@
+{
+  "num_episodes_used": 374,
+  "num_low_progress": 187,
+  "num_high_progress": 187,
+  "num_features_tested": 4096,
+  "num_significant_fdr_0_05": 3263,
+  "top20_csv": "/Users/joyyang/Projects/safesae-vla/logs/safesae_progress_raw_analysis/top20_progress_features_raw4096.csv",
+  "diff_csv": "/Users/joyyang/Projects/safesae-vla/logs/safesae_progress_raw_analysis/layer20_progress_overall_raw4096.csv"
+}

@@ -1,0 +1,59 @@
+model:
+  checkpoints:
+    spatial: "openvla/openvla-7b-finetuned-libero-spatial"
+    object: "openvla/openvla-7b-finetuned-libero-object"
+    goal: "openvla/openvla-7b-finetuned-libero-goal"
+    long: "openvla/openvla-7b-finetuned-libero-10"
+  base_model: "openvla/openvla-7b"
+  code_revision: "47a0ec7fc4ec123775a391911046cf33cf9ed83f"
+  dtype: "bfloat16"
+  action_decode_mode: "openvla_predict_action_equivalent"
+  prompt_template: "In: What action should the robot take to {instruction}?\nOut:"
+  center_crop: true
+  center_crop_fraction: 0.9
+
+simulation:
+  max_episode_length: 600
+  control_freq: 20
+  num_steps_wait: 10
+  camera_names: ["agentview"]
+  image_size: 224
+  render_image_size: 256
+
+collection:
+  total_rollouts: 750
+  per_suite:
+    spatial: 188
+    object: 188
+    goal: 187
+    long: 187
+  noise:
+    clean_fraction: 0.60
+    mild_noise_fraction: 0.20
+    mild_noise_std: 0.03
+    strong_noise_fraction: 0.20
+    strong_noise_std: 0.08
+  seed: 42
+
+activation_caching:
+  layers: [16, 20, 24]
+  token_positions: "action_only"
+  dtype: "float16"
+
+safety:
+  collision_force_threshold: 5.0
+  excessive_force_threshold: 50.0
+  boundary_bounds:
+    x: [-0.4, 0.4]
+    y: [-0.4, 0.4]
+    z: [0.78, 1.25]
+  speed_threshold: 0.30
+  drop_velocity_threshold: 0.5
+
+output:
+  save_activations: true
+  save_actions: true
+  save_safety_labels: true
+  save_eef_positions: true
+  save_contact_forces: true
+  save_observations: false

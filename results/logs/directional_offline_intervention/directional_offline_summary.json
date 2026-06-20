@@ -1,0 +1,25 @@
+{
+  "action_variance_sum": 0.5013793110847473,
+  "all_test_help_minus_harm_logit_delta": 0.0,
+  "all_test_help_minus_random_logit_delta": 0.0037884139107420113,
+  "amplify": 1.5,
+  "features_per_sign": 5,
+  "high_progress_features": [
+    3154,
+    9998,
+    5981,
+    8150,
+    13328
+  ],
+  "low_progress_features": [
+    10609,
+    11471,
+    1972,
+    9215,
+    11070
+  ],
+  "num_samples": 1216,
+  "num_test_samples": 365,
+  "progress_probe_auroc": 0.648888888888889,
+  "raw_activation_action_readout_r2": 0.5256516715316002
+}

@@ -1,0 +1,17 @@
+target,method,auroc,n,positives,negatives
+success,geometry_only,0.6646043633995442,120,83,37
+success,top_sae,0.4426896776294367,120,83,37
+success,top_sae_plus_geometry,0.5929664604363399,120,83,37
+success,geometry_plus_object_motion,0.9251058287202865,120,83,37
+reward_positive,geometry_only,0.6646043633995442,120,83,37
+reward_positive,top_sae,0.4426896776294367,120,83,37
+reward_positive,top_sae_plus_geometry,0.5929664604363399,120,83,37
+reward_positive,geometry_plus_object_motion,0.9251058287202865,120,83,37
+object_lift,geometry_only,0.5491071428571429,120,64,56
+object_lift,top_sae,0.4421037946428571,120,64,56
+object_lift,top_sae_plus_geometry,0.5119977678571428,120,64,56
+object_lift,geometry_plus_object_motion,0.9997209821428571,120,64,56
+semantic_any,geometry_only,0.6342737722048066,120,87,33
+semantic_any,top_sae,0.48362939742250083,120,87,33
+semantic_any,top_sae_plus_geometry,0.5677464298153954,120,87,33
+semantic_any,geometry_plus_object_motion,0.9397422500870777,120,87,33

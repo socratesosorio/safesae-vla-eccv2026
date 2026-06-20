@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Large model / data artifacts (host externally, see README)
+*.pt
+*.pth
+*.safetensors
+*.npy
+*.npz
+*.memmap
+data/
+rollouts/
+checkpoints/
+sae_checkpoints/
+
+# Notebooks / scratch
+.ipynb_checkpoints/
+outputs/
+scratch/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/

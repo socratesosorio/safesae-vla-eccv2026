@@ -1,0 +1,16 @@
+condition,n_samples,mean_progress_logit_delta,median_progress_logit_delta,frac_progress_logit_increased,mean_abs_progress_logit_delta,mean_raw_action_readout_shift_l2,median_raw_action_readout_shift_l2,mean_raw_activation_delta_l2,median_raw_activation_delta_l2,subset
+all_test_directional_help,365,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,all_test
+all_test_directional_harm,365,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,all_test
+all_test_low_only_zero,365,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,all_test
+all_test_high_only_amplify,365,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,all_test
+all_test_random_mixed_mean,365,-0.0037884139107420113,0.0,0.024712328767123287,0.021049583940390578,0.0018218923290260136,0.0,0.1509551691263914,0.0,all_test
+low_progress_test_directional_help,180,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,low_progress_test
+low_progress_test_directional_harm,180,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,low_progress_test
+low_progress_test_low_only_zero,180,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,low_progress_test
+low_progress_test_high_only_amplify,180,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,low_progress_test
+low_progress_test_random_mixed_mean,180,0.003883758775348064,0.0,0.04955555555555555,0.025152376081783393,0.0029444579992559737,0.0,0.18517419414594768,0.0,low_progress_test
+high_progress_test_directional_help,185,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,high_progress_test
+high_progress_test_directional_harm,185,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,high_progress_test
+high_progress_test_low_only_zero,185,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,high_progress_test
+high_progress_test_high_only_amplify,185,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,high_progress_test
+high_progress_test_random_mixed_mean,185,0.0011656952312914261,0.0,0.036648648648648655,0.021094485395805048,0.0020673161790182347,0.0,0.18093162364326418,0.0,high_progress_test

@@ -1,0 +1,49 @@
+model:
+  name: "lerobot/pi0"
+  repo: "Physical-Intelligence/openpi"
+  dtype: "bfloat16"
+
+simulation:
+  max_episode_length: 600
+  control_freq: 20
+  camera_names: ["agentview"]
+  image_size: 224
+
+collection:
+  total_rollouts: 600
+  per_suite:
+    spatial: 150
+    object: 150
+    goal: 150
+    long: 150
+  noise:
+    clean_fraction: 0.60
+    mild_noise_fraction: 0.20
+    mild_noise_std: 0.03
+    strong_noise_fraction: 0.20
+    strong_noise_std: 0.08
+  seed: 42
+
+activation_caching:
+  layers: [9, 11, 14]
+  token_positions: "action_query"
+  dtype: "float16"
+  d_in: 1152
+
+safety:
+  collision_force_threshold: 5.0
+  excessive_force_threshold: 50.0
+  boundary_bounds:
+    x: [-0.4, 0.4]
+    y: [-0.4, 0.4]
+    z: [0.78, 1.25]
+  speed_threshold: 0.30
+  drop_velocity_threshold: 0.5
+
+output:
+  save_activations: true
+  save_actions: true
+  save_safety_labels: true
+  save_eef_positions: true
+  save_contact_forces: true
+  save_observations: false

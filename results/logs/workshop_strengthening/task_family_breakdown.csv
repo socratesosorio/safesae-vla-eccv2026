@@ -1,0 +1,9 @@
+method,suite,test_episodes,positives,auroc
+SAE full dictionary,goal,52,15,0.9891891891891892
+SAE full dictionary,long,17,5,0.5833333333333333
+SAE full dictionary,object,41,36,0.85
+SAE full dictionary,spatial,3,0,
+Top-20 sparse features,goal,52,15,0.9477477477477477
+Top-20 sparse features,long,17,5,0.6666666666666667
+Top-20 sparse features,object,41,36,0.8833333333333333
+Top-20 sparse features,spatial,3,0,

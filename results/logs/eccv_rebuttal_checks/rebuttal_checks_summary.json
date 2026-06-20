@@ -1,0 +1,46 @@
+{
+  "label_scheme_details": {
+    "median": {
+      "n": 750,
+      "negatives": 375,
+      "positives": 375
+    },
+    "quartile": {
+      "n": 374,
+      "negatives": 187,
+      "positives": 187
+    },
+    "tertile": {
+      "n": 500,
+      "negatives": 250,
+      "positives": 250
+    }
+  },
+  "median_sae_lr_auroc": 0.9286968888888889,
+  "median_top20_auroc": 0.5330666666666667,
+  "quartile_motion_telemetry_lr_auroc": 0.9023134776516343,
+  "quartile_random20_sae_lr_auroc": 0.7832651777288456,
+  "quartile_raw_lr_auroc": 0.9754639823843976,
+  "quartile_raw_mlp_auroc": 0.95681889673711,
+  "quartile_raw_pca20_lr_auroc": 0.9658554719894764,
+  "quartile_raw_pca64_lr_auroc": 0.9735194028997112,
+  "quartile_raw_rp20_lr_auroc": 0.9158969372873117,
+  "quartile_sae_lr_auroc": 0.9465526609282507,
+  "quartile_top20_auroc": 0.9260916812033515,
+  "semantic_proxy_audit": {
+    "episode_success_positive_count": 0,
+    "episode_success_rate": 0.0,
+    "episodes_audited": 750,
+    "metric_source_counts": {
+      "negative_eef_displacement_fallback": 750
+    },
+    "object_or_goal_state_json_episode_count": 0,
+    "object_or_goal_state_tensor_episode_count": 0,
+    "semantic_json_key_episode_count": 0,
+    "semantic_tensor_key_episode_count": 0
+  },
+  "spatial_suite_n": 14,
+  "spatial_top20_auroc": 0.7111111111111111,
+  "tertile_sae_lr_auroc": 0.948368,
+  "tertile_top20_auroc": 0.5519999999999999
+}

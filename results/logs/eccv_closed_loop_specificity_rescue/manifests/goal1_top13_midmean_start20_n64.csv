@@ -1,0 +1,14 @@
+feature_set,rank,feature_idx,feature_value,default_scale,selection_strategy,intervention_direction,is_random_control,trigger_mode,trigger_start_step,trigger_latch,allowed_task_specs,condition_names
+goal1_top13_midmean_start20_n64,0,10609,0.006273820172661628,1.0,submitted_same_features,set_to_mid_progress_mean,0,after_step,20,1,goal:1,clean
+goal1_top13_midmean_start20_n64,1,11471,0.005003731530334006,1.0,submitted_same_features,set_to_mid_progress_mean,0,after_step,20,1,goal:1,clean
+goal1_top13_midmean_start20_n64,2,1972,0.00488557002038997,1.0,submitted_same_features,set_to_mid_progress_mean,0,after_step,20,1,goal:1,clean
+goal1_top13_midmean_start20_n64,3,9215,0.008278756404923067,1.0,submitted_same_features,set_to_mid_progress_mean,0,after_step,20,1,goal:1,clean
+goal1_top13_midmean_start20_n64,4,11070,0.0052282281884833744,1.0,submitted_same_features,set_to_mid_progress_mean,0,after_step,20,1,goal:1,clean
+goal1_top13_midmean_start20_n64,5,11183,0.004361698444419701,1.0,submitted_same_features,set_to_mid_progress_mean,0,after_step,20,1,goal:1,clean
+goal1_top13_midmean_start20_n64,6,15966,0.00466898917145826,1.0,submitted_same_features,set_to_mid_progress_mean,0,after_step,20,1,goal:1,clean
+goal1_top13_midmean_start20_n64,7,1528,0.003476170001845331,1.0,submitted_same_features,set_to_mid_progress_mean,0,after_step,20,1,goal:1,clean
+goal1_top13_midmean_start20_n64,8,15118,0.0036453336220792216,1.0,submitted_same_features,set_to_mid_progress_mean,0,after_step,20,1,goal:1,clean
+goal1_top13_midmean_start20_n64,9,14915,0.0033559373095581628,1.0,submitted_same_features,set_to_mid_progress_mean,0,after_step,20,1,goal:1,clean
+goal1_top13_midmean_start20_n64,10,1457,0.0033928315257304798,1.0,submitted_same_features,set_to_mid_progress_mean,0,after_step,20,1,goal:1,clean
+goal1_top13_midmean_start20_n64,11,15872,0.003161270047518043,1.0,submitted_same_features,set_to_mid_progress_mean,0,after_step,20,1,goal:1,clean
+goal1_top13_midmean_start20_n64,12,15030,0.004018314595503545,1.0,submitted_same_features,set_to_mid_progress_mean,0,after_step,20,1,goal:1,clean

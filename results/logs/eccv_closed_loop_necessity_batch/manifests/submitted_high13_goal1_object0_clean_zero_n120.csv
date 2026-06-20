@@ -1,0 +1,14 @@
+feature_set,rank,feature_idx,feature_value,default_scale,selection_strategy,intervention_direction,is_random_control,trigger_mode,trigger_start_step,trigger_latch,allowed_task_specs,condition_names
+submitted_high13_goal1_object0_clean_zero_n120,0,10609,0.0,1.0,closed_loop_necessity_submitted_high_progress,set_high_progress_features_to_zero,0,always,0,1,"goal:1,object:0",clean
+submitted_high13_goal1_object0_clean_zero_n120,1,11471,0.0,1.0,closed_loop_necessity_submitted_high_progress,set_high_progress_features_to_zero,0,always,0,1,"goal:1,object:0",clean
+submitted_high13_goal1_object0_clean_zero_n120,2,1972,0.0,1.0,closed_loop_necessity_submitted_high_progress,set_high_progress_features_to_zero,0,always,0,1,"goal:1,object:0",clean
+submitted_high13_goal1_object0_clean_zero_n120,3,9215,0.0,1.0,closed_loop_necessity_submitted_high_progress,set_high_progress_features_to_zero,0,always,0,1,"goal:1,object:0",clean
+submitted_high13_goal1_object0_clean_zero_n120,4,11070,0.0,1.0,closed_loop_necessity_submitted_high_progress,set_high_progress_features_to_zero,0,always,0,1,"goal:1,object:0",clean
+submitted_high13_goal1_object0_clean_zero_n120,5,11183,0.0,1.0,closed_loop_necessity_submitted_high_progress,set_high_progress_features_to_zero,0,always,0,1,"goal:1,object:0",clean
+submitted_high13_goal1_object0_clean_zero_n120,6,15966,0.0,1.0,closed_loop_necessity_submitted_high_progress,set_high_progress_features_to_zero,0,always,0,1,"goal:1,object:0",clean
+submitted_high13_goal1_object0_clean_zero_n120,7,1528,0.0,1.0,closed_loop_necessity_submitted_high_progress,set_high_progress_features_to_zero,0,always,0,1,"goal:1,object:0",clean
+submitted_high13_goal1_object0_clean_zero_n120,8,15118,0.0,1.0,closed_loop_necessity_submitted_high_progress,set_high_progress_features_to_zero,0,always,0,1,"goal:1,object:0",clean
+submitted_high13_goal1_object0_clean_zero_n120,9,14915,0.0,1.0,closed_loop_necessity_submitted_high_progress,set_high_progress_features_to_zero,0,always,0,1,"goal:1,object:0",clean
+submitted_high13_goal1_object0_clean_zero_n120,10,1457,0.0,1.0,closed_loop_necessity_submitted_high_progress,set_high_progress_features_to_zero,0,always,0,1,"goal:1,object:0",clean
+submitted_high13_goal1_object0_clean_zero_n120,11,15872,0.0,1.0,closed_loop_necessity_submitted_high_progress,set_high_progress_features_to_zero,0,always,0,1,"goal:1,object:0",clean
+submitted_high13_goal1_object0_clean_zero_n120,12,15030,0.0,1.0,closed_loop_necessity_submitted_high_progress,set_high_progress_features_to_zero,0,always,0,1,"goal:1,object:0",clean

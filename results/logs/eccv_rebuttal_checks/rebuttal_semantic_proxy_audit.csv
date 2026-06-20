@@ -1,0 +1,7 @@
+proxy,n_episodes,spearman_rho_with_progress_norm,unique_values,progress_predicts_success_auroc
+episode_success,750,,1,
+eef_final_displacement,750,-0.7822824619823349,750,
+eef_path_length,750,-0.23547999157388813,749,
+eef_mean_velocity_proxy,750,-0.23532703127911667,749,
+action_mean_norm,750,-0.20551991104267572,750,
+contact_force_mean,750,0.389379082821205,749,

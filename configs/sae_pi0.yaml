@@ -1,0 +1,24 @@
+primary:
+  architecture: "batch_topk"
+  d_in: 1152
+  d_sae: 4608
+  k: 32
+
+training:
+  lr: 5e-5
+  lr_warmup_steps: 300
+  lr_schedule: "cosine"
+  batch_size: 4096
+  total_training_tokens: 20000000
+  max_grad_norm: 1.0
+  weight_decay: 0.0
+  normalize_activations: "expected_average_only_in"
+  decoder_norm: "unit"
+  checkpoint_every_steps: 1000
+  eval_every_steps: 500
+  log_every_steps: 100
+  seed: 42
+
+evaluation:
+  target_l0_range: [20, 50]
+  max_dead_features_pct: 5.0

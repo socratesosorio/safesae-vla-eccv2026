@@ -1,0 +1,94 @@
+{
+  "available_key_sets": [
+    "actions activations_layer20 contact_forces done_flags eef_positions episode_safety_violations episode_success object_states rewards safety_labels success_by_done_flags success_by_env_check_flags success_by_info_flags success_flags"
+  ],
+  "best_results": [
+    {
+      "auroc": 0.9997209821428571,
+      "method": "geometry_plus_object_motion",
+      "n": 120,
+      "negatives": 56,
+      "positives": 64,
+      "target": "object_lift"
+    },
+    {
+      "auroc": 0.9397422500870777,
+      "method": "geometry_plus_object_motion",
+      "n": 120,
+      "negatives": 33,
+      "positives": 87,
+      "target": "semantic_any"
+    },
+    {
+      "auroc": 0.9251058287202865,
+      "method": "geometry_plus_object_motion",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "success"
+    },
+    {
+      "auroc": 0.9251058287202865,
+      "method": "geometry_plus_object_motion",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "reward_positive"
+    },
+    {
+      "auroc": 0.6646043633995442,
+      "method": "geometry_only",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "reward_positive"
+    },
+    {
+      "auroc": 0.6646043633995442,
+      "method": "geometry_only",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "success"
+    },
+    {
+      "auroc": 0.6342737722048066,
+      "method": "geometry_only",
+      "n": 120,
+      "negatives": 33,
+      "positives": 87,
+      "target": "semantic_any"
+    },
+    {
+      "auroc": 0.5929664604363399,
+      "method": "top_sae_plus_geometry",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "reward_positive"
+    },
+    {
+      "auroc": 0.5929664604363399,
+      "method": "top_sae_plus_geometry",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "success"
+    },
+    {
+      "auroc": 0.5677464298153954,
+      "method": "top_sae_plus_geometry",
+      "n": 120,
+      "negatives": 33,
+      "positives": 87,
+      "target": "semantic_any"
+    }
+  ],
+  "n_episodes": 120,
+  "object_lift_rate": 0.5333333333333333,
+  "reward_positive_rate": 0.6916666666666667,
+  "semantic_any_rate": 0.725,
+  "success_rate": 0.6916666666666667,
+  "top_feature_nonzero_rate_mean": 0.020833333333333332,
+  "top_feature_variance_max": 2.1655501646940797e-06
+}

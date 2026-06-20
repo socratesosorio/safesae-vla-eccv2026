@@ -1,0 +1,8 @@
+{
+  "matched_trials": 1000,
+  "n_high_test": 57,
+  "n_low_test": 56,
+  "n_test": 113,
+  "n_train": 263,
+  "probe_test_auroc": 0.9598997493734336
+}

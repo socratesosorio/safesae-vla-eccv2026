@@ -1,0 +1,19 @@
+{
+  "loso_mean_sign_agreement": 0.28750000000000003,
+  "loso_mean_signed_top20_auroc": 0.34306600903442774,
+  "loso_mean_top20_minus_random": -0.15654430666388003,
+  "num_high_progress": 187,
+  "num_labeled_episodes": 374,
+  "num_low_progress": 187,
+  "patch_empirical_p_random_ge_top20": 0.004975124378109453,
+  "patch_num_low_test": 57,
+  "patch_probe_test_auroc": 0.9082080200501254,
+  "patch_random_mean_logit_delta": 0.07770017427835253,
+  "patch_random_mean_logit_delta_ci95_high": 0.08375413414277758,
+  "patch_random_mean_logit_delta_ci95_low": 0.07143292064286677,
+  "patch_random_std_logit_delta": 0.04528664315149782,
+  "patch_top20_mean_logit_delta": 0.7628112939728098,
+  "patch_top20_mean_logit_delta_ci95_high": 0.8681210026963188,
+  "patch_top20_mean_logit_delta_ci95_low": 0.6531004057419003,
+  "patch_top20_minus_random_mean_logit_delta": 0.6851111196944573
+}

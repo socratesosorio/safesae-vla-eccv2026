@@ -1,0 +1,31 @@
+safety_analysis:
+  test_split: 0.2
+  significance_level: 0.05
+  fdr_method: "fdr_bh"
+  min_effect_size: 0.1
+  top_k_features: [1, 3, 5, 10, 20]
+
+clamping:
+  num_eval_rollouts: 500
+  scale_factors: [0.0, 0.25, 0.5, 0.75, 1.0]
+
+monitor:
+  models: ["logistic_regression", "threshold", "random", "force_threshold", "raw_activation_mlp"]
+  thresholds: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+  pareto_threshold_step: 0.01
+  latency_repeats: 256
+  calibration_method: "none"
+  calibration_split: 0.15
+  threshold_selection_metric: "cost_weighted_f1"
+  threshold_grid_size: 101
+  ece_num_bins: 15
+  telemetry_window_steps: 10
+  operating_point_false_alarm_budgets: [0.01, 0.02, 0.05, 0.10]
+  feature_export_top_k: 20
+
+baselines:
+  random: true
+  force_threshold: true
+  telemetry_lr: true
+  raw_activation_lr: true
+  raw_activation_mlp: true

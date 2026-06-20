@@ -1,0 +1,3 @@
+dictionary,features_tested,significant_features,top10_mean_abs_effect,active_features
+16K_d16384_k32,1881,835,0.5864851725814294,1881
+32K_d32768_k48,2096,995,0.625246152105025,2096

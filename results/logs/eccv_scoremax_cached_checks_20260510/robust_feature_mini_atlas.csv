@@ -1,0 +1,9 @@
+feature_idx,mean_low,mean_high,activation_rate_low,activation_rate_high,direction,strongest_telemetry_correlation,abs_spearman,peak_phase_proxy,phase_delta,cautious_label
+1215,0.0,0.0,0.0,0.0,higher_in_high_progress,eef_final_displacement,,,,progress-associated sparse direction
+11644,0.0,0.0,0.0,0.0,higher_in_high_progress,eef_final_displacement,,,,progress-associated sparse direction
+3504,0.0,0.0,0.0,0.0,higher_in_high_progress,eef_final_displacement,,,,progress-associated sparse direction
+9712,0.0,0.0,0.0,0.0,higher_in_high_progress,eef_final_displacement,,,,progress-associated sparse direction
+11836,0.0,0.0,0.0,0.0,higher_in_high_progress,eef_final_displacement,,,,progress-associated sparse direction
+12441,0.0,0.0,0.0,0.0,higher_in_high_progress,eef_final_displacement,,,,progress-associated sparse direction
+5678,0.0,0.0,0.0,0.0,higher_in_high_progress,eef_final_displacement,,,,progress-associated sparse direction
+1219,0.0,0.0,0.0,0.0,higher_in_high_progress,eef_final_displacement,,,,progress-associated sparse direction

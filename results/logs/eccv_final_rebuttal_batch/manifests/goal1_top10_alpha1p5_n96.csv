@@ -1,0 +1,11 @@
+feature_set,rank,feature_idx,feature_value,default_scale,selection_strategy,intervention_direction,is_random_control,trigger_mode,trigger_start_step,allowed_task_specs
+goal1_top10_alpha1p5_n96,0,10609,0.016291041683871202,1.0,eccv_final_rebuttal_high_ev,set_low_progress_toward_high_progress_mean,0,always,20,goal:1
+goal1_top10_alpha1p5_n96,1,11471,0.013500549015589001,1.0,eccv_final_rebuttal_high_ev,set_low_progress_toward_high_progress_mean,0,always,20,goal:1
+goal1_top10_alpha1p5_n96,2,1972,0.013003410014789551,1.0,eccv_final_rebuttal_high_ev,set_low_progress_toward_high_progress_mean,0,always,20,goal:1
+goal1_top10_alpha1p5_n96,3,9215,0.0206162844551726,1.0,eccv_final_rebuttal_high_ev,set_low_progress_toward_high_progress_mean,0,always,20,goal:1
+goal1_top10_alpha1p5_n96,4,11070,0.0124486840213649,1.0,eccv_final_rebuttal_high_ev,set_low_progress_toward_high_progress_mean,0,always,20,goal:1
+goal1_top10_alpha1p5_n96,5,3154,-0.005883895806618949,1.0,eccv_final_rebuttal_high_ev,set_low_progress_toward_high_progress_mean,0,always,20,goal:1
+goal1_top10_alpha1p5_n96,6,11183,0.0100967131438665,1.0,eccv_final_rebuttal_high_ev,set_low_progress_toward_high_progress_mean,0,always,20,goal:1
+goal1_top10_alpha1p5_n96,7,9998,-0.0048567687335889995,1.0,eccv_final_rebuttal_high_ev,set_low_progress_toward_high_progress_mean,0,always,20,goal:1
+goal1_top10_alpha1p5_n96,8,15966,0.0131012506171828,1.0,eccv_final_rebuttal_high_ev,set_low_progress_toward_high_progress_mean,0,always,20,goal:1
+goal1_top10_alpha1p5_n96,9,1528,0.0086734162468928,1.0,eccv_final_rebuttal_high_ev,set_low_progress_toward_high_progress_mean,0,always,20,goal:1

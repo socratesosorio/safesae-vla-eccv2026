@@ -1,0 +1,17 @@
+{
+  "num_episodes_total": 750,
+  "num_labeled_low": 187,
+  "num_labeled_high": 187,
+  "num_discarded_middle": 376,
+  "suites": [
+    "goal",
+    "long",
+    "object",
+    "spatial"
+  ],
+  "metric_source_counts": {
+    "negative_eef_displacement_fallback": 750
+  },
+  "output_csv": "logs/safesae_progress_labels/progress_labels.csv",
+  "output_full_csv": "logs/safesae_progress_labels/progress_labels_full.csv"
+}

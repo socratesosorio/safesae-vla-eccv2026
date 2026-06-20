@@ -1,0 +1,14 @@
+feature_set,rank,feature_idx,feature_value,default_scale,selection_strategy,intervention_direction,is_random_control,trigger_mode,trigger_start_step,trigger_latch,allowed_task_specs,condition_names,trigger_end_step
+goal1_top13_highmean_pulse20_120_n64,0,10609,0.011282430926865721,1.0,submitted_same_features,set_to_high_progress_mean_short_pulse,0,after_step,20,0,goal:1,clean,120
+goal1_top13_highmean_pulse20_120_n64,1,11471,0.009252140228761039,1.0,submitted_same_features,set_to_high_progress_mean_short_pulse,0,after_step,20,0,goal:1,clean,120
+goal1_top13_highmean_pulse20_120_n64,2,1972,0.00894449008778133,1.0,submitted_same_features,set_to_high_progress_mean_short_pulse,0,after_step,20,0,goal:1,clean,120
+goal1_top13_highmean_pulse20_120_n64,3,9215,0.014447520218072376,1.0,submitted_same_features,set_to_high_progress_mean_short_pulse,0,after_step,20,0,goal:1,clean,120
+goal1_top13_highmean_pulse20_120_n64,4,11070,0.008838456151459116,1.0,submitted_same_features,set_to_high_progress_mean_short_pulse,0,after_step,20,0,goal:1,clean,120
+goal1_top13_highmean_pulse20_120_n64,5,11183,0.007229206167201272,1.0,submitted_same_features,set_to_high_progress_mean_short_pulse,0,after_step,20,0,goal:1,clean,120
+goal1_top13_highmean_pulse20_120_n64,6,15966,0.008885119432822474,1.0,submitted_same_features,set_to_high_progress_mean_short_pulse,0,after_step,20,0,goal:1,clean,120
+goal1_top13_highmean_pulse20_120_n64,7,1528,0.006074793060325095,1.0,submitted_same_features,set_to_high_progress_mean_short_pulse,0,after_step,20,0,goal:1,clean,120
+goal1_top13_highmean_pulse20_120_n64,8,15118,0.006216161149768076,1.0,submitted_same_features,set_to_high_progress_mean_short_pulse,0,after_step,20,0,goal:1,clean,120
+goal1_top13_highmean_pulse20_120_n64,9,14915,0.005680670191030821,1.0,submitted_same_features,set_to_high_progress_mean_short_pulse,0,after_step,20,0,goal:1,clean,120
+goal1_top13_highmean_pulse20_120_n64,10,1457,0.006325921712363517,1.0,submitted_same_features,set_to_high_progress_mean_short_pulse,0,after_step,20,0,goal:1,clean,120
+goal1_top13_highmean_pulse20_120_n64,11,15872,0.005843030515420693,1.0,submitted_same_features,set_to_high_progress_mean_short_pulse,0,after_step,20,0,goal:1,clean,120
+goal1_top13_highmean_pulse20_120_n64,12,15030,0.006775799701687536,1.0,submitted_same_features,set_to_high_progress_mean_short_pulse,0,after_step,20,0,goal:1,clean,120

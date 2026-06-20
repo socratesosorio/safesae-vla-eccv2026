@@ -1,0 +1,11 @@
+feature_idx,direction,selection_source,fold_frequency,mean_fold_rank
+1215,higher_in_high_progress,nested_train_only_cv,5,2.0
+3504,higher_in_high_progress,nested_train_only_cv,5,2.2
+9712,higher_in_high_progress,nested_train_only_cv,5,2.4
+1369,higher_in_high_progress,nested_train_only_cv,5,5.2
+15198,higher_in_high_progress,nested_train_only_cv,5,6.2
+11644,higher_in_high_progress,nested_train_only_cv,5,6.4
+4932,higher_in_high_progress,nested_train_only_cv,5,6.6
+11836,higher_in_high_progress,nested_train_only_cv,5,6.6
+4135,higher_in_high_progress,nested_train_only_cv,5,8.8
+5678,higher_in_high_progress,nested_train_only_cv,5,10.2

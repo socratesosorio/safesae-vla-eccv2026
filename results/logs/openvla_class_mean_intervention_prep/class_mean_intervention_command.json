@@ -1,0 +1,8 @@
+{
+  "dry_run": true,
+  "layer": 20,
+  "manifest": "logs/openvla_class_mean_intervention_prep/class_mean_intervention_manifest.csv",
+  "num_rollouts": 60,
+  "rollout_config": "configs/rollout_semantic_audit.yaml",
+  "sae_checkpoint": "results/athena_pilot/checkpoints/sae_layer20_d16384.pt"
+}

@@ -1,0 +1,138 @@
+{
+  "best_results": [
+    {
+      "auroc": 0.9997209821428571,
+      "method": "geometry_plus_object_motion",
+      "n": 120,
+      "negatives": 56,
+      "positives": 64,
+      "target": "object_lift"
+    },
+    {
+      "auroc": 0.9907924107142856,
+      "method": "raw_lr",
+      "n": 120,
+      "negatives": 56,
+      "positives": 64,
+      "target": "object_lift"
+    },
+    {
+      "auroc": 0.9759036144578314,
+      "method": "raw_lr",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "success"
+    },
+    {
+      "auroc": 0.9759036144578314,
+      "method": "raw_lr",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "reward_positive"
+    },
+    {
+      "auroc": 0.9751674107142858,
+      "method": "raw_pca20",
+      "n": 120,
+      "negatives": 56,
+      "positives": 64,
+      "target": "object_lift"
+    },
+    {
+      "auroc": 0.9680885704982091,
+      "method": "full_sae_lr",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "reward_positive"
+    },
+    {
+      "auroc": 0.9680885704982091,
+      "method": "full_sae_lr",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "success"
+    },
+    {
+      "auroc": 0.9654835558450017,
+      "method": "raw_pca20",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "success"
+    },
+    {
+      "auroc": 0.9654835558450017,
+      "method": "raw_pca20",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "reward_positive"
+    },
+    {
+      "auroc": 0.9644723092998955,
+      "method": "raw_lr",
+      "n": 120,
+      "negatives": 33,
+      "positives": 87,
+      "target": "semantic_any"
+    },
+    {
+      "auroc": 0.9637276785714285,
+      "method": "full_sae_lr",
+      "n": 120,
+      "negatives": 56,
+      "positives": 64,
+      "target": "object_lift"
+    },
+    {
+      "auroc": 0.94921875,
+      "method": "full_sae_pca20",
+      "n": 120,
+      "negatives": 56,
+      "positives": 64,
+      "target": "object_lift"
+    },
+    {
+      "auroc": 0.9487983281086729,
+      "method": "full_sae_lr",
+      "n": 120,
+      "negatives": 33,
+      "positives": 87,
+      "target": "semantic_any"
+    },
+    {
+      "auroc": 0.9380006966213863,
+      "method": "geometry_plus_object_motion",
+      "n": 120,
+      "negatives": 33,
+      "positives": 87,
+      "target": "semantic_any"
+    },
+    {
+      "auroc": 0.9292929292929293,
+      "method": "full_sae_pca20",
+      "n": 120,
+      "negatives": 33,
+      "positives": 87,
+      "target": "semantic_any"
+    },
+    {
+      "auroc": 0.9244545750569847,
+      "method": "geometry_plus_object_motion",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "reward_positive"
+    }
+  ],
+  "n_episodes": 120,
+  "object_lift_rate": 0.5333333333333333,
+  "reward_positive_rate": 0.6916666666666667,
+  "semantic_any_rate": 0.725,
+  "success_rate": 0.6916666666666667,
+  "top_feature_nonzero_rate_mean": 0.020833333333333332
+}

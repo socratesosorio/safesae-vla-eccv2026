@@ -1,0 +1,11 @@
+feature_set,rank,feature_idx,feature_value,default_scale,selection_strategy,intervention_direction,is_random_control,trigger_mode,trigger_start_step,allowed_task_specs
+spatial1_top10_zero_n48,0,10609,0.0,1.0,negative_intervention,suppress_progress_feature_value,0,always,20,spatial:1
+spatial1_top10_zero_n48,1,11471,0.0,1.0,negative_intervention,suppress_progress_feature_value,0,always,20,spatial:1
+spatial1_top10_zero_n48,2,1972,0.0,1.0,negative_intervention,suppress_progress_feature_value,0,always,20,spatial:1
+spatial1_top10_zero_n48,3,9215,0.0,1.0,negative_intervention,suppress_progress_feature_value,0,always,20,spatial:1
+spatial1_top10_zero_n48,4,11070,0.0,1.0,negative_intervention,suppress_progress_feature_value,0,always,20,spatial:1
+spatial1_top10_zero_n48,5,3154,0.0,1.0,negative_intervention,suppress_progress_feature_value,0,always,20,spatial:1
+spatial1_top10_zero_n48,6,11183,0.0,1.0,negative_intervention,suppress_progress_feature_value,0,always,20,spatial:1
+spatial1_top10_zero_n48,7,9998,0.0,1.0,negative_intervention,suppress_progress_feature_value,0,always,20,spatial:1
+spatial1_top10_zero_n48,8,15966,0.0,1.0,negative_intervention,suppress_progress_feature_value,0,always,20,spatial:1
+spatial1_top10_zero_n48,9,1528,0.0,1.0,negative_intervention,suppress_progress_feature_value,0,always,20,spatial:1

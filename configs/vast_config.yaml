@@ -1,0 +1,13 @@
+vast:
+  interruptible: true
+  gpu: "RTX_3090"
+  min_disk_gb: 100
+  checkpoint_sync_interval_min: 30
+  data_dir: "${VAST_DATA_DIR}"
+  checkpoint_dir: "${VAST_CHECKPOINT_DIR}"
+  resume: true
+  rsync_remote: "${VAST_RSYNC_REMOTE}"
+  rsync_path: "${VAST_RSYNC_PATH}"
+  s3_uri: "${VAST_S3_URI}"
+  install_cmd: "pip install -r requirements.txt"
+  train_backend: "manual"

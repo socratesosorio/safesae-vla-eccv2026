@@ -1,0 +1,170 @@
+{
+  "best_results": [
+    {
+      "auroc": 0.9997209821428571,
+      "auroc_ci95_high": 1.0,
+      "auroc_ci95_low": 0.9983216783216784,
+      "method": "geometry_plus_object_motion",
+      "n": 120,
+      "negatives": 56,
+      "positives": 64,
+      "target": "object_lift"
+    },
+    {
+      "auroc": 0.9907924107142856,
+      "auroc_ci95_high": 0.9994419642857143,
+      "auroc_ci95_low": 0.9769917061413709,
+      "method": "raw_lr",
+      "n": 120,
+      "negatives": 56,
+      "positives": 64,
+      "target": "object_lift"
+    },
+    {
+      "auroc": 0.9759036144578314,
+      "auroc_ci95_high": 0.9928990208711677,
+      "auroc_ci95_low": 0.9523769841269842,
+      "method": "raw_lr",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "reward_positive"
+    },
+    {
+      "auroc": 0.9759036144578314,
+      "auroc_ci95_high": 0.9928990208711677,
+      "auroc_ci95_low": 0.9523769841269842,
+      "method": "raw_lr",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "success"
+    },
+    {
+      "auroc": 0.9751674107142858,
+      "auroc_ci95_high": 0.9924916573971079,
+      "auroc_ci95_low": 0.9514047001591759,
+      "method": "raw_pca20",
+      "n": 120,
+      "negatives": 56,
+      "positives": 64,
+      "target": "object_lift"
+    },
+    {
+      "auroc": 0.9680885704982091,
+      "auroc_ci95_high": 0.98982592383395,
+      "auroc_ci95_low": 0.9395912414545085,
+      "method": "full_sae_lr",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "success"
+    },
+    {
+      "auroc": 0.9680885704982091,
+      "auroc_ci95_high": 0.98982592383395,
+      "auroc_ci95_low": 0.9395912414545085,
+      "method": "full_sae_lr",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "reward_positive"
+    },
+    {
+      "auroc": 0.9654835558450017,
+      "auroc_ci95_high": 0.9913657113598795,
+      "auroc_ci95_low": 0.9311344637667298,
+      "method": "raw_pca20",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "success"
+    },
+    {
+      "auroc": 0.9654835558450017,
+      "auroc_ci95_high": 0.9913657113598795,
+      "auroc_ci95_low": 0.9311344637667298,
+      "method": "raw_pca20",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "reward_positive"
+    },
+    {
+      "auroc": 0.9644723092998955,
+      "auroc_ci95_high": 0.9871796875000001,
+      "auroc_ci95_low": 0.9322813797020146,
+      "method": "raw_lr",
+      "n": 120,
+      "negatives": 33,
+      "positives": 87,
+      "target": "semantic_any"
+    },
+    {
+      "auroc": 0.9637276785714285,
+      "auroc_ci95_high": 0.9988738160402503,
+      "auroc_ci95_low": 0.9146648190045249,
+      "method": "full_sae_lr",
+      "n": 120,
+      "negatives": 56,
+      "positives": 64,
+      "target": "object_lift"
+    },
+    {
+      "auroc": 0.94921875,
+      "auroc_ci95_high": 0.9944429008057794,
+      "auroc_ci95_low": 0.8943254976391796,
+      "method": "full_sae_pca20",
+      "n": 120,
+      "negatives": 56,
+      "positives": 64,
+      "target": "object_lift"
+    },
+    {
+      "auroc": 0.9487983281086729,
+      "auroc_ci95_high": 0.9788888888888889,
+      "auroc_ci95_low": 0.9096277571634714,
+      "method": "full_sae_lr",
+      "n": 120,
+      "negatives": 33,
+      "positives": 87,
+      "target": "semantic_any"
+    },
+    {
+      "auroc": 0.9380006966213863,
+      "auroc_ci95_high": 0.974452449562579,
+      "auroc_ci95_low": 0.8866590327029158,
+      "method": "geometry_plus_object_motion",
+      "n": 120,
+      "negatives": 33,
+      "positives": 87,
+      "target": "semantic_any"
+    },
+    {
+      "auroc": 0.9292929292929293,
+      "auroc_ci95_high": 0.9680677604809427,
+      "auroc_ci95_low": 0.8788703703703704,
+      "method": "full_sae_pca20",
+      "n": 120,
+      "negatives": 33,
+      "positives": 87,
+      "target": "semantic_any"
+    },
+    {
+      "auroc": 0.9244545750569847,
+      "auroc_ci95_high": 0.968758877840909,
+      "auroc_ci95_low": 0.8718396164021164,
+      "method": "geometry_plus_object_motion",
+      "n": 120,
+      "negatives": 37,
+      "positives": 83,
+      "target": "reward_positive"
+    }
+  ],
+  "n_episodes": 120,
+  "object_lift_rate": 0.5333333333333333,
+  "reward_positive_rate": 0.6916666666666667,
+  "semantic_any_rate": 0.725,
+  "success_rate": 0.6916666666666667,
+  "top_feature_nonzero_rate_mean": 0.020833333333333332
+}

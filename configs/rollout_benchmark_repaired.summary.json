@@ -1,0 +1,13 @@
+{
+  "base_config": "configs/rollout_benchmark.yaml",
+  "output_config": "configs/rollout_benchmark_repaired.yaml",
+  "per_suite": {
+    "goal": 160,
+    "long": 80,
+    "object": 160,
+    "spatial": 160
+  },
+  "safety_overrides_yaml": "results/athena_benchmark_repair/success_debug_balanced16_officialparity_v2_repaired/calibration/recommended_safety_overrides.yaml",
+  "task_selection_yaml": "results/athena_benchmark_repair/success_debug_balanced16_officialparity_v2_repaired/task_screen/recommended_task_selection.yaml",
+  "total_rollouts": 560
+}

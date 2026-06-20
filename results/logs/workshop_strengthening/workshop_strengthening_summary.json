@@ -1,0 +1,20 @@
+{
+  "class_mean_patch_action_samples": 57,
+  "class_mean_patch_action_shift_empirical_p": 0.004975124378109453,
+  "class_mean_patch_mean_action_shift_l2": 0.02736982196783013,
+  "class_mean_patch_mean_gripper_shift_abs": 0.009486692787785621,
+  "class_mean_patch_mean_progress_logit_delta": 0.7628113016704716,
+  "class_mean_patch_mean_rotation_shift_l2": 0.007204351289174513,
+  "class_mean_patch_mean_translation_shift_l2": 0.023346829761752435,
+  "class_mean_patch_random_mean_action_shift_l2": 0.005362361798704698,
+  "episode_action_readout_r2": 0.7717671564185585,
+  "full_mean_suite_auroc": 0.8075075075075074,
+  "high_episode_id": "rollout_000575",
+  "high_progress_norm": 0.9521475297055452,
+  "high_suite": "object",
+  "loso_mean_signed_top20_minus_random": -0.15654430666387997,
+  "low_episode_id": "rollout_000371",
+  "low_progress_norm": 0.0,
+  "low_suite": "long",
+  "top20_mean_suite_auroc": 0.8325825825825826
+}

@@ -1,0 +1,7 @@
+target,usable,n,positives,negatives,suite_label_counts
+total_burden_rate,True,378,190,188,"{""0"":{""goal"":47,""long"":47,""object"":47,""spatial"":47},""1"":{""goal"":47,""long"":47,""object"":49,""spatial"":47}}"
+collision_rate,True,377,189,188,"{""0"":{""goal"":47,""long"":47,""object"":47,""spatial"":47},""1"":{""goal"":47,""long"":47,""object"":47,""spatial"":48}}"
+excessive_force_rate,True,380,191,189,"{""0"":{""goal"":47,""long"":47,""object"":48,""spatial"":47},""1"":{""goal"":47,""long"":47,""object"":47,""spatial"":50}}"
+boundary_violation_rate,True,354,146,208,"{""0"":{""goal"":47,""long"":65,""spatial"":96},""1"":{""goal"":47,""long"":52,""spatial"":47}}"
+high_approach_speed_rate,True,376,188,188,"{""0"":{""goal"":47,""long"":47,""object"":47,""spatial"":47},""1"":{""goal"":47,""long"":47,""object"":47,""spatial"":47}}"
+object_drop_rate,True,145,87,58,"{""0"":{""long"":58},""1"":{""long"":87}}"

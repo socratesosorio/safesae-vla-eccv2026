@@ -1,0 +1,14 @@
+{
+  "action_variance_sum": 1.3256793022155762,
+  "dose_response_spearman_p": 1.4042654220543672e-24,
+  "dose_response_spearman_rho": 0.9999999999999999,
+  "mean_alt_proxy_top20_overlap": 0.0,
+  "min_threshold_category_consistency": 0.5582142857142857,
+  "num_active_features": 5957,
+  "num_low_test_samples": 329,
+  "num_proxy_rows": 5,
+  "num_samples": 2200,
+  "num_threshold_rows": 25,
+  "progress_probe_auroc": 0.5539307064344025,
+  "raw_activation_action_readout_r2": 0.8043039571180829
+}

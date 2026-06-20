@@ -1,0 +1,49 @@
+{
+  "probe_test_auroc": 0.9658521303258145,
+  "rows": [
+    {
+      "condition": "low_to_high_mean",
+      "feature_set": "submitted20",
+      "frac_negative": NaN,
+      "frac_positive": 0.9464285714285714,
+      "k": 20,
+      "mean_delta": 0.8260978677747238,
+      "median_delta": 0.8007770200909928,
+      "random_mean": 0.09068318518053656,
+      "random_p": 0.0004997501249375312
+    },
+    {
+      "condition": "high_to_low_mean",
+      "feature_set": "submitted20",
+      "frac_negative": 1.0,
+      "frac_positive": NaN,
+      "k": 20,
+      "mean_delta": -0.7305301462615726,
+      "median_delta": -0.8641179154981746,
+      "random_mean": -0.07931685572083318,
+      "random_p": 0.0004997501249375312
+    },
+    {
+      "condition": "low_to_high_mean",
+      "feature_set": "robust20_fdr",
+      "frac_negative": NaN,
+      "frac_positive": 1.0,
+      "k": 3,
+      "mean_delta": 0.058680500664766634,
+      "median_delta": 0.05961196341567946,
+      "random_mean": 0.015272263255040087,
+      "random_p": 0.031984007996002
+    },
+    {
+      "condition": "high_to_low_mean",
+      "feature_set": "robust20_fdr",
+      "frac_negative": 0.5789473684210527,
+      "frac_positive": NaN,
+      "k": 3,
+      "mean_delta": -0.09633204616417321,
+      "median_delta": -0.030290415754821408,
+      "random_mean": -0.013494103428665116,
+      "random_p": 0.0029985007496251873
+    }
+  ]
+}

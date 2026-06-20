@@ -1,0 +1,16 @@
+modal:
+  app_name: "safesae-vla"
+  volume_name: "safesae-vla-data"
+  gpu_type: "A100"
+  gpu_size: "40GB"
+  num_workers: 8
+  timeout_sec: 86400
+  retries: 2
+  retry_backoff_sec: 15
+  mount_path: "/data"
+  startup_timeout_sec: 900
+  preload_models:
+    - "openvla/openvla-7b"
+    - "openvla/openvla-7b-finetuned-libero-spatial"
+    - "openvla/openvla-7b-finetuned-libero-object"
+    - "openvla/openvla-7b-finetuned-libero-goal"

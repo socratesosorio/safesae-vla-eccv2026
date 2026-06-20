@@ -1,0 +1,14 @@
+feature_set,rank,feature_idx,feature_value,default_scale,selection_strategy,intervention_direction,is_random_control,trigger_mode,trigger_start_step,trigger_latch,allowed_task_specs,condition_names,trigger_end_step
+goal1_random13_lowmean_pulse20_120_03_n64,0,11347,0.0011438121433982342,1.0,matched_random_features,set_to_low_progress_mean_short_pulse,1,after_step,20,0,goal:1,clean,120
+goal1_random13_lowmean_pulse20_120_03_n64,1,8234,0.004014543778098657,1.0,matched_random_features,set_to_low_progress_mean_short_pulse,1,after_step,20,0,goal:1,clean,120
+goal1_random13_lowmean_pulse20_120_03_n64,2,7052,0.003487657679663202,1.0,matched_random_features,set_to_low_progress_mean_short_pulse,1,after_step,20,0,goal:1,clean,120
+goal1_random13_lowmean_pulse20_120_03_n64,3,10462,0.0008694021788271288,1.0,matched_random_features,set_to_low_progress_mean_short_pulse,1,after_step,20,0,goal:1,clean,120
+goal1_random13_lowmean_pulse20_120_03_n64,4,3099,0.0010184631023037961,1.0,matched_random_features,set_to_low_progress_mean_short_pulse,1,after_step,20,0,goal:1,clean,120
+goal1_random13_lowmean_pulse20_120_03_n64,5,16035,0.005089977636614558,1.0,matched_random_features,set_to_low_progress_mean_short_pulse,1,after_step,20,0,goal:1,clean,120
+goal1_random13_lowmean_pulse20_120_03_n64,6,5981,0.013164509639373016,1.0,matched_random_features,set_to_low_progress_mean_short_pulse,1,after_step,20,0,goal:1,clean,120
+goal1_random13_lowmean_pulse20_120_03_n64,7,7307,0.0006723538910183129,1.0,matched_random_features,set_to_low_progress_mean_short_pulse,1,after_step,20,0,goal:1,clean,120
+goal1_random13_lowmean_pulse20_120_03_n64,8,7505,0.003322124697845708,1.0,matched_random_features,set_to_low_progress_mean_short_pulse,1,after_step,20,0,goal:1,clean,120
+goal1_random13_lowmean_pulse20_120_03_n64,9,14525,0.0007443084657929278,1.0,matched_random_features,set_to_low_progress_mean_short_pulse,1,after_step,20,0,goal:1,clean,120
+goal1_random13_lowmean_pulse20_120_03_n64,10,13149,0.006307082126205908,1.0,matched_random_features,set_to_low_progress_mean_short_pulse,1,after_step,20,0,goal:1,clean,120
+goal1_random13_lowmean_pulse20_120_03_n64,11,2030,0.0006746102185461631,1.0,matched_random_features,set_to_low_progress_mean_short_pulse,1,after_step,20,0,goal:1,clean,120
+goal1_random13_lowmean_pulse20_120_03_n64,12,13113,0.0046388566765416025,1.0,matched_random_features,set_to_low_progress_mean_short_pulse,1,after_step,20,0,goal:1,clean,120

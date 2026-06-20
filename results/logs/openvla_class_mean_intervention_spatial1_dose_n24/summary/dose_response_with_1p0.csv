@@ -1,0 +1,4 @@
+feature_set,n,baseline_success_rate,clamped_success_rate,success_delta,baseline_any_violation_rate,clamped_any_violation_rate,any_violation_delta,any_violation_delta_ci95_low,any_violation_delta_ci95_high,any_violation_wilcoxon_p,mean_action_delta_active_l2
+top20_class_mean_0p5,24,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,,0.2834629068771998
+top20_class_mean_1p5,24,1.0,1.0,0.0,1.0,0.4166666666666667,-0.5833333333333334,-0.7916666865348816,-0.375,0.0001828106329818,0.2664875984191894
+top20_class_mean_1p0_n32,32,1.0,0.9375,-0.0625,1.0,0.65625,-0.34375,-0.5,-0.1875,0.0009111188771537,0.2414848990738392

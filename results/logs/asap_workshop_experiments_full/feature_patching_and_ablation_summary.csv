@@ -1,0 +1,5 @@
+condition,n_samples,mean_progress_logit_delta,median_progress_logit_delta,mean_raw_action_readout_shift_l2,median_raw_action_readout_shift_l2,mean_raw_activation_delta_l2,median_raw_activation_delta_l2
+patch_top20_high_progress_mean,329,-0.004250473221052792,0.005034381825276268,0.0013288494665175676,0.00035516981733962893,0.0878368392586708,0.03208065778017044
+zero_top20_progress_features,329,-0.009284855046329048,0.0,0.0009840100537985563,0.0,0.05683419480919838,0.0
+zero_bottom20_active_features,329,0.0,0.0,0.00023049562878441066,0.0,0.01810421049594879,0.0
+zero_random20_active_features_mean,329,-0.0013898380564272182,0.0,0.006166277872398496,0.0,0.2903643449147542,0.0

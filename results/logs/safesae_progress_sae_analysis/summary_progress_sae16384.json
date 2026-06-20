@@ -1,0 +1,10 @@
+{
+  "num_episodes_used": 374,
+  "num_low_progress_timestep_samples": 1496,
+  "num_high_progress_timestep_samples": 1496,
+  "num_features_tested": 1881,
+  "num_significant_fdr_0_05": 1117,
+  "diff_csv": "logs/safesae_progress_sae_analysis/layer20_progress_overall_sae16384.csv",
+  "topk_csv": "logs/safesae_progress_sae_analysis/top20_progress_features_sae16384.csv",
+  "episode_means_csv": "logs/safesae_progress_sae_analysis/episode_feature_means_sae16384.csv"
+}
